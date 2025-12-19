@@ -2,7 +2,7 @@
   <h1>🌐 CAP478 — Data Communication & Networking Laboratory</h1>
   <strong>Lovely Professional University</strong>
   <br /><br />
-  <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc3NTAnIGhlaWdodD0nNjAnPgogIDxkZWZzPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSdncmFkJz4KICAgICAgPHN0b3Agb2Zmc2V0PScwJScgc3RvcC1jb2xvcj0nIzM4YmRmOCc+CiAgICAgICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0nc3RvcC1jb2xvcicgdmFsdWVzPScjMzhiZGY4OyMyMmM1NWU7I2E4NTVmNzsjMzhiZGY4JyBkdXI9JzZzJyByZXBlYXRDb3VudD0naW5kZWZpbml0ZScvPgogICAgICA8L3N0b3A+CiAgICAgIDxzdG9wIG9mZnNldD0nMTAwJScgc3RvcC1jb2xvcj0nI2E4NTVmNyc+CiAgICAgICAgPGFuaW1hdGUgYXR0cmlidXRlTmFtZT0nc3RvcC1jb2xvcicgdmFsdWVzPScjYTg1NWY3OyMzOGJkZjg7IzIyYzU1ZTsjYTg1NWY3JyBkdXI9JzZzJyByZXBlYXRDb3VudD0naW5kZWZpbml0ZScvPgogICAgICA8L3N0b3A+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0nMTAwJScgaGVpZ2h0PScxMDAlJyBmaWxsPSd3aGl0ZScvPgogIDx0ZXh0IHg9JzUwJScgeT0nNTAlJyBkb21pbmFudC1iYXNlbGluZT0nbWlkZGxlJyB0ZXh0LWFuY2hvcj0nbWlkZGxlJyBmb250LWZhbWlseT0nRmlyYSBDb2RlLCBtb25vc3BhY2UnIGZvbnQtc2l6ZT0nMjInIGZpbGw9J3VybCgjZ3JhZCknPgogICAgQ0FQNDc4IFBhY2tldCBUcmFjZXIgTGFiIFBvcnRmb2xpbwogIDwvdGV4dD4KPC9zdmc+" alt="Animated headline" />
+  <img src="./assets/banner.svg" alt="Animated headline" />
   <br />
   <img src="https://img.shields.io/badge/Labs-30%2B-38bdf8?style=for-the-badge" alt="Labs badge" />
   <img src="https://img.shields.io/badge/Tool-Cisco%20Packet%20Tracer-22c55e?style=for-the-badge&logo=cisco" alt="Packet Tracer badge" />
@@ -76,6 +76,8 @@ This is a colorful, learner-friendly launchpad for networking basics, routing, a
 - DHCP: [dhcp.pkt](./dhcp.pkt), [dhcp using server.pkt](./dhcp%20using%20server.pkt)  
 - Email: [EMAIL.pkt](./EMAIL.pkt), [smtp.pkt](./smtp.pkt), [smptp_email.pkt](./smptp_email.pkt), [emailserver2.pkt](./emailserver2.pkt)  
 - Combo: [EMAIL & FTP.pkt](./EMAIL%20&%20FTP.pkt), [ftp.pkt](./ftp.pkt)
+
+_Note: DNS exercises live in the files above; there is no separate `dns.pkt` in this repo._
 </details>
 
 <details>
@@ -85,7 +87,7 @@ This is a colorful, learner-friendly launchpad for networking basics, routing, a
 - [cisco.pkt](./cisco.pkt), [static_test.pkt](./static_test.pkt) — quick checks
 </details>
 
-💡 Need a text-only index? See [LAB_INDEX.md](./LAB_INDEX.md) for short descriptions and quick verification steps.
+💡 Need a text-only index? See [LAB_INDEX.md](./LAB_INDEX.md) for per-file descriptions and quick verification steps.
 
 ## 🛠️ How to open and play
 1. Install **Cisco Packet Tracer** (v8.x recommended).  
