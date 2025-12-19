@@ -88,4 +88,3 @@ These files are provided for educational use as part of the CAP478 course at Lov
 
 **Last Updated:** December 2025
 
-If you'd like additional formatting changes, a curated lab index, or a `.gitignore` to exclude any temporary files, tell me and I'll add them.
