@@ -2,7 +2,7 @@
   <h1>🌐 CAP478 — Data Communication & Networking Laboratory</h1>
   <strong>Lovely Professional University</strong>
   <br /><br />
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Cisco+Packet+Tracer+Lab+Portfolio;Subnetting+%7C+Routing+%7C+Services;\"These+are+the+labs+that+I+have+done+during+my+course\"" alt="Animated headline" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Cisco+Packet+Tracer+Lab+Portfolio;Subnetting+%7C+Routing+%7C+Services;Labs+completed+during+CAP478+at+LPU" alt="Animated headline" />
   <br />
   <img src="https://img.shields.io/badge/Labs-30%2B-38bdf8?style=for-the-badge" alt="Labs badge" />
   <img src="https://img.shields.io/badge/Tool-Cisco%20Packet%20Tracer-22c55e?style=for-the-badge&logo=cisco" alt="Packet Tracer badge" />
