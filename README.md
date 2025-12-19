@@ -1,90 +1,120 @@
-# CAP478 — Data Communication & Networking Laboratory
+<div align="center">
+  <h1>🌐 CAP478 — Data Communication & Networking Laboratory</h1>
+  <strong>Lovely Professional University</strong>
+  <br /><br />
+  <img src="./assets/banner.svg" alt="Animated headline" />
+  <br />
+  <img src="https://img.shields.io/badge/Labs-30%2B-38bdf8?style=for-the-badge" alt="Labs badge" />
+  <img src="https://img.shields.io/badge/Tool-Cisco%20Packet%20Tracer-22c55e?style=for-the-badge&logo=cisco" alt="Packet Tracer badge" />
+  <img src="https://img.shields.io/badge/Course-CAP478-6366f1?style=for-the-badge" alt="Course badge" />
+</div>
 
-**Lovely Professional University**
+---
 
-Short: This repository contains Cisco Packet Tracer lab files (.pkt) completed for the CAP478 laboratory course. The labs demonstrate practical networking concepts: topology design, IP addressing, subnetting, routing (static & dynamic), and common application services (HTTP, DNS, DHCP, SMTP, FTP).
+## 🚀 Why this repo?
+This is a colorful, learner-friendly launchpad for networking basics, routing, and services—built entirely in Cisco Packet Tracer. Every `.pkt` in the root is ready to open and explore.
 
-## Table of Contents
-- [Course Overview](#course-overview)
-- [Course Outcomes](#course-outcomes)
-- [Lab Topics & Files](#lab-topics--files)
-- [Software Requirements](#software-requirements)
-- [How to Use](#how-to-use)
-- [Suggested Learning Path](#suggested-learning-path)
-- [Author](#author)
-- [License](#license)
+## 🎯 Course Snapshot
+- **University:** Lovely Professional University  
+- **Course:** CAP478 — Data Communication and Networking Laboratory  
+- **Goal:** A quick visual guide for juniors to study, tinker, and verify networking concepts.
 
-## Course Overview
+### ✅ Course Outcomes
+- CO1: Understand the fundamental concepts of data flow and criteria for transmission media selection.  
+- CO2: Demonstrate IP allocation and subnet creation techniques.  
+- CO3: Contrast static and dynamic routing protocols.  
+- CO4: Assess application-layer services (HTTP, DNS, DHCP, SMTP, FTP) in real networks.
 
-Course: CAP478 — Data Communication and Networking Laboratory
+### 📚 Text Books & References
+1. **CCNA 200-301 Official Cert Guide** — Wendell Odom (Pearson Education, Singapore)  
+2. **Computer Networks** — Andrew S. Tanenbaum, David J. Wetherall (Pearson)
 
-This repository holds the Packet Tracer simulations created during the course. Each `.pkt` file represents a lab exercise or assessment used to practice network design, configuration, and troubleshooting.
+## 🧭 Learning Map (start anywhere, follow the glow)
+**Networking basics**
+- ✅ Demonstration of Packet Tracer installation and interface tour.  
+- ✅ Design a peer-to-peer network; test with `ping`, send PDUs in Real-Time and Simulation modes.  
+- ✅ Build two isolated networks to contrast hub vs switch behavior.  
+- ✅ Create a hybrid topology (bus backbone + 3 stars); verify connectivity with `ping` and PDUs.
 
-## Course Outcomes
+**Connectivity between networks & routing**
+- ✅ Connect two networks using a single router and enable inter-network communication.  
+- ✅ Link multiple networks (router per network) with **static routing**.  
+- ✅ Repeat with **dynamic routing (RIP)** and observe convergence.  
+- ✅ FLSM challenge: Subnet `197.34.21.0/24` into four `/26` networks (each supports ≥56 hosts) using static routes.
 
-- CO1: Understand fundamental data flow concepts and selection criteria for transmission media.
-- CO2: Demonstrate IP allocation and subnet creation techniques.
-- CO3: Compare and contrast static and dynamic routing protocols.
-- CO4: Assess application-layer services (HTTP, DNS, DHCP, SMTP, FTP) in networked environments.
+**Configuring network services**
+- ✅ Configure an **HTTP server** and browse via IP in Real-Time and Simulation modes.  
+- ✅ Configure **DNS** for two domains and reach both HTTP servers via names.  
+- ✅ Configure **DHCP** and verify dynamic IP assignment in the local network.  
+- ✅ Configure **DHCP** again (server-based) to watch live leases populate.
 
-### Textbook & References
-- CCNA 200-301 Official Cert Guide — Wendell Odom
-- Computer Networks — Andrew S. Tanenbaum & David J. Wetherall
+## 🎒 Lab Vault (click to expand)
+<details>
+<summary>🔌 Networking basics & topologies</summary>
 
-## Lab Topics & Files
+- [hub.pkt](./hub.pkt) — Hub behavior and collisions  
+- [startopologies.pkt](./startopologies.pkt) — Classic topologies starter  
+- [mesh topologies.pkt](./mesh%20topologies.pkt) — Mesh redundancy  
+- [Assing1.pkt](./Assing1.pkt), [Exercise.pkt](./Exercise.pkt) — Practice builds  
+- [TOPOLOGY.pkt](./TOPOLOGY.pkt), [26.pkt](./26.pkt), [l1.pkt](./l1.pkt), [recoup.pkt](./recoup.pkt) — Class drills
+</details>
 
-The repository includes these Packet Tracer files (complete list):
+<details>
+<summary>🛰️ Routing & IP design</summary>
 
-- `hub.pkt` — Hub network examples
-- `startopologies.pkt` — Basic topologies
-- `mesh topologies.pkt` — Mesh topology exercises
-- `router.pkt`, `3 router.pkt` — Router configuration labs
-- `static router.pkt`, `static routing.pkt`, `STATIC & DYNAMIC ROUTER.pkt` — Static routing labs
-- `dynamic routing.pkt`, `dynamic routing with 3 router.pkt` — RIP / dynamic routing labs
-- `subnetting.pkt`, `Subnetting_Solved.pkt`, `subnating.pkt` — Subnetting and FLSM exercises
-- `http.pkt`, `http learning.pkt`, `http 2nd lec.pkt` — HTTP server and web access
-- `dns.pkt`, `server and dns.pkt`, `dnsp.pkt` — DNS configuration and name resolution
-- `dhcp.pkt`, `dhcp using server.pkt` — DHCP server and client demonstrations
-- `EMAIL.pkt`, `EMAIL & FTP.pkt`, `emailserver2.pkt`, `smtp.pkt`, `smptp_email.pkt` — Email / SMTP labs
-- `ftp.pkt` — FTP server lab
-- Assessment & assignments: `CA2.pkt`, `CA3DCN.pkt`, `Assing1.pkt`, `Exercise.pkt`
+- [router.pkt](./router.pkt), [3 router.pkt](./3%20router.pkt), [routing1.pkt](./routing1.pkt)  
+- Static: [static router.pkt](./static%20router.pkt), [static routing.pkt](./static%20routing.pkt), [STATIC & DYNAMIC ROUTER.pkt](./STATIC%20&%20DYNAMIC%20ROUTER.pkt)  
+- Dynamic (RIP): [dynamic routing.pkt](./dynamic%20routing.pkt), [dynamic routing with 3 router.pkt](./dynamic%20routing%20with%203%20router.pkt), [2 hub dynamic routing.pkt](./2%20hub%20dynamic%20routing.pkt), [3 hub dynamic routing.pkt](./3%20hub%20dynamic%20routing.pkt)  
+- Subnetting: [subnetting.pkt](./subnetting.pkt), [Subnetting_Solved.pkt](./Subnetting_Solved.pkt), [subnating.pkt](./subnating.pkt), [ip addressing class.pkt](./ip%20addressing%20class.pkt)
+</details>
 
-If you need a specific file listed in the root but not mentioned above, all `.pkt` files are present in the repository root — open them directly with Cisco Packet Tracer.
+<details>
+<summary>🛠️ Services (HTTP, DNS, DHCP, Email, FTP)</summary>
 
-## Software Requirements
+- Web: [http.pkt](./http.pkt), [http learning.pkt](./http%20learning.pkt), [http 2nd lec.pkt](./http%202nd%20lec.pkt)  
+- DNS: [server and dns.pkt](./server%20and%20dns.pkt), [dnsp.pkt](./dnsp.pkt)  
+  - _Note: DNS exercises live in these files; there is no separate `dns.pkt` in this repo._  
+- DHCP: [dhcp.pkt](./dhcp.pkt), [dhcp using server.pkt](./dhcp%20using%20server.pkt)  
+- Email: [EMAIL.pkt](./EMAIL.pkt), [smtp.pkt](./smtp.pkt), [smptp_email.pkt](./smptp_email.pkt), [emailserver2.pkt](./emailserver2.pkt)  
+- Combo: [EMAIL & FTP.pkt](./EMAIL%20&%20FTP.pkt), [ftp.pkt](./ftp.pkt)
+</details>
 
-- Cisco Packet Tracer (v8.x recommended)
+<details>
+<summary>🏁 Assessments & mixed scenarios</summary>
 
-Download and install Packet Tracer from Cisco Networking Academy. Open `.pkt` files using Packet Tracer.
+- [CA2.pkt](./CA2.pkt), [CA3DCN.pkt](./CA3DCN.pkt), [ca_2.pkt](./ca_2.pkt)  
+- [cisco.pkt](./cisco.pkt), [static_test.pkt](./static_test.pkt) — quick checks
+</details>
 
-## How to Use
+💡 Need a text-only index? See [LAB_INDEX.md](./LAB_INDEX.md) for per-file descriptions and quick verification steps.
 
-1. Clone the repository:
+## 🛠️ How to open and play
+1. Install **Cisco Packet Tracer** (v8.x recommended).  
+2. Clone the repo:
+   ```bash
+   git clone https://github.com/nitish-niraj/networking-cisco-packet-tracer.git
+   ```
+3. Double-click any `.pkt` file to launch it in Packet Tracer.  
+4. Toggle **Real-Time** to watch live traffic or **Simulation** to step through PDUs.
 
-```bash
-git clone https://github.com/nitish-niraj/networking-cisco-packet-tracer.git
-```
+## 🌈 Suggested path for juniors
+1) Basics → `hub.pkt`, `startopologies.pkt`  
+2) IP addressing → `subnetting.pkt`, `Subnetting_Solved.pkt`  
+3) Static routing → `static routing.pkt`  
+4) Dynamic routing (RIP) → `dynamic routing.pkt`  
+5) Services → `http.pkt`, `dnsp.pkt`, `dhcp using server.pkt`, `EMAIL & FTP.pkt`  
+6) Challenge → Split `197.34.21.0/24` into four `/26` subnets (≥56 hosts each) and verify with `ping`.
 
-2. Open any `.pkt` file with Cisco Packet Tracer.
-3. Use Real-Time mode to interact with devices or Simulation mode to step through PDUs.
+## 🧪 Quick verification commands
+- On routers: `show ip interface brief`, `show ip route`, `debug ip rip` (for RIP labs).  
+- On PCs: `ping <ip>`, `ipconfig /renew`, web browser for HTTP/DNS, FTP/Email clients for service labs.
 
-## Suggested Learning Path
+## 👩‍💻 Author
+Student — CAP478: Data Communication and Networking Laboratory (Lovely Professional University)
 
-1. Start with `hub.pkt` and `startopologies.pkt` to learn basic device behavior.
-2. Practice IP addressing and subnetting using the subnetting exercises.
-3. Configure routers for static routing, then try dynamic routing (RIP) labs.
-4. Set up and test application services: HTTP, DNS, DHCP, SMTP, FTP.
-
-## Author
-
-Student — CAP478: Data Communication and Networking Laboratory
-Lovely Professional University
-
-## License
-
-These files are provided for educational use as part of the CAP478 course at Lovely Professional University.
+## 🪪 License
+Educational use for CAP478 coursework at Lovely Professional University.
 
 ---
 
 **Last Updated:** December 2025
-
