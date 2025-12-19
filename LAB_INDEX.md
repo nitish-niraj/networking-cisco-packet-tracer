@@ -36,4 +36,46 @@ This file is a curated index of Packet Tracer lab files included in the reposito
 - `2 hub dynamic routing.pkt`, `3 hub dynamic routing.pkt` — Hub-based topologies combined with dynamic routing exercises.
 - `26.pkt`, `l1.pkt`, `recoup.pkt`, `ip addressing class.pkt`, `routing1.pkt`, `static_test.pkt`, `TOPOLOGY.pkt`, `ca_2.pkt`, `cisco.pkt` — Miscellaneous labs and class exercises (open to inspect contents).
 
-If you want, I can expand each item with a short screenshot, expected commands, or verification steps (ping/traceroute/config show).
+Verification steps (quick checks)
+
+These quick verification steps show how to validate the common labs after opening the `.pkt` in Packet Tracer.
+
+- `hub.pkt`
+	- Check: connect two hosts and generate traffic; observe collisions in Real-Time (hubs forward all frames).
+	- Commands: use Simulation mode to view broadcast frames and collisions.
+
+- `router.pkt`, `3 router.pkt`
+	- Check: from a host in each network, `ping` the other network's host IP.
+	- Commands on router: `show ip interface brief`, `show ip route`.
+
+- `static router.pkt`, `static routing.pkt`, `STATIC & DYNAMIC ROUTER.pkt`
+	- Check: configure static routes (if not pre-configured), then `ping` across networks and verify with `show ip route`.
+	- Verify static routes persist in the routing table.
+
+- `dynamic routing.pkt`, `dynamic routing with 3 router.pkt`
+	- Check: ensure RIP is enabled; verify neighbors and learned routes with `show ip route` and `debug ip rip` in simulation.
+	- Verify route convergence by shutting down an interface and observing route changes.
+
+- `subnetting.pkt`, `Subnetting_Solved.pkt`, `subnating.pkt`
+	- Check: verify host addressing matches the required subnet masks; `ping` between hosts in same subnet and across subnets (via router).
+	- Commands: `show ip interface brief` to confirm IPs and masks.
+
+- `dhcp.pkt`, `dhcp using server.pkt`
+	- Check: set PC to DHCP, then `ipconfig /renew` (in Packet Tracer PC CLI) and confirm the assigned IP and gateway.
+	- Verify DHCP pool using server configuration page.
+
+- `dns.pkt`, `server and dns.pkt`, `dnsp.pkt`
+	- Check: on a host, browse to the hostname configured for the HTTP server; DNS should resolve to server IP.
+	- Verify DNS records on DNS server appliance.
+
+- `http.pkt`, `http learning.pkt`, `http 2nd lec.pkt`
+	- Check: open the web browser on a PC, navigate to server IP or configured hostname, and confirm page loads.
+
+- `ftp.pkt`, `EMAIL.pkt`, `smtp.pkt`, `EMAIL & FTP.pkt`, `emailserver2.pkt`
+	- Check FTP: use FTP client on a PC to connect to FTP server, list files and transfer a small file.
+	- Check Email: configure client with mail server settings and send a test email between hosts; verify server logs.
+
+- Misc labs (`CA2.pkt`, `CA3DCN.pkt`, `Assing1.pkt`, etc.)
+	- Check: follow the lab instructions inside the file; common checks include ping tests, `show` commands on routers/switches, and service verification (HTTP/DHCP/DNS).
+
+If you want, I can expand any of the verifications into step-by-step commands per lab or add screenshots/snippets for each.
