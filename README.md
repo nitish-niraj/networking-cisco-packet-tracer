@@ -40,7 +40,7 @@ This is a colorful, learner-friendly launchpad for networking basics, routing, a
 - ✅ Connect two networks using a single router and enable inter-network communication.  
 - ✅ Link multiple networks (router per network) with **static routing**.  
 - ✅ Repeat with **dynamic routing (RIP)** and observe convergence.  
-- ✅ FLSM challenge: Subnet `197.34.21.0/24` so every subnet supports ≥56 hosts using static routes.
+- ✅ FLSM challenge: Subnet `197.34.21.0/24` into four `/26` networks (each supports ≥56 hosts) using static routes.
 
 **Configuring network services**
 - ✅ Configure an **HTTP server** and browse via IP in Real-Time and Simulation modes.  
@@ -73,11 +73,10 @@ This is a colorful, learner-friendly launchpad for networking basics, routing, a
 
 - Web: [http.pkt](./http.pkt), [http learning.pkt](./http%20learning.pkt), [http 2nd lec.pkt](./http%202nd%20lec.pkt)  
 - DNS: [server and dns.pkt](./server%20and%20dns.pkt), [dnsp.pkt](./dnsp.pkt)  
+  - _Note: DNS exercises live in these files; there is no separate `dns.pkt` in this repo._  
 - DHCP: [dhcp.pkt](./dhcp.pkt), [dhcp using server.pkt](./dhcp%20using%20server.pkt)  
 - Email: [EMAIL.pkt](./EMAIL.pkt), [smtp.pkt](./smtp.pkt), [smptp_email.pkt](./smptp_email.pkt), [emailserver2.pkt](./emailserver2.pkt)  
 - Combo: [EMAIL & FTP.pkt](./EMAIL%20&%20FTP.pkt), [ftp.pkt](./ftp.pkt)
-
-_Note: DNS exercises live in the files above; there is no separate `dns.pkt` in this repo._
 </details>
 
 <details>
@@ -104,7 +103,7 @@ _Note: DNS exercises live in the files above; there is no separate `dns.pkt` in 
 3) Static routing → `static routing.pkt`  
 4) Dynamic routing (RIP) → `dynamic routing.pkt`  
 5) Services → `http.pkt`, `dnsp.pkt`, `dhcp using server.pkt`, `EMAIL & FTP.pkt`  
-6) Challenge → Try the FLSM subnetting task for `197.34.21.0/24` and verify with `ping`.
+6) Challenge → Split `197.34.21.0/24` into four `/26` subnets (≥56 hosts each) and verify with `ping`.
 
 ## 🧪 Quick verification commands
 - On routers: `show ip interface brief`, `show ip route`, `debug ip rip` (for RIP labs).  
