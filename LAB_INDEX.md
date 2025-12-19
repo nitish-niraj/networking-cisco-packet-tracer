@@ -18,7 +18,6 @@ This file is a curated index of Packet Tracer lab files included in the reposito
 - `http.pkt` — HTTP server configuration and web access via IP.
 - `http learning.pkt` — HTTP lab used in lectures/learning demonstrations.
 - `http 2nd lec.pkt` — Follow-up HTTP lecture lab.
-- `dns.pkt` — Basic DNS server setup and name resolution.
 - `server and dns.pkt` — DNS with web servers demonstrating domain-based access.
 - `dnsp.pkt` — Additional DNS practice lab.
 - `dhcp.pkt` — DHCP server configuration for dynamic IP assignment.
