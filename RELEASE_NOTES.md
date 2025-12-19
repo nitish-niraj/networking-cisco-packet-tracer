@@ -21,5 +21,3 @@ Notes for instructors/students
 - Verify services using the verification steps in `LAB_INDEX.md`.
 
 Tag: `v1.0.0`
-
-If you want, I can create a GitHub release entry (release notes + attached files) — this requires using the GitHub API or `gh` CLI with your credentials. Alternatively, I can prepare a formatted release message here and you can paste it into the GitHub Releases UI.
