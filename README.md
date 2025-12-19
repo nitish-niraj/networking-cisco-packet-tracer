@@ -72,7 +72,7 @@ This is a colorful, learner-friendly launchpad for networking basics, routing, a
 <summary>🛠️ Services (HTTP, DNS, DHCP, Email, FTP)</summary>
 
 - Web: [http.pkt](./http.pkt), [http learning.pkt](./http%20learning.pkt), [http 2nd lec.pkt](./http%202nd%20lec.pkt)  
-- DNS: [dns.pkt](./dns.pkt), [server and dns.pkt](./server%20and%20dns.pkt), [dnsp.pkt](./dnsp.pkt)  
+- DNS: [server and dns.pkt](./server%20and%20dns.pkt), [dnsp.pkt](./dnsp.pkt)  
 - DHCP: [dhcp.pkt](./dhcp.pkt), [dhcp using server.pkt](./dhcp%20using%20server.pkt)  
 - Email: [EMAIL.pkt](./EMAIL.pkt), [smtp.pkt](./smtp.pkt), [smptp_email.pkt](./smptp_email.pkt), [emailserver2.pkt](./emailserver2.pkt)  
 - Combo: [EMAIL & FTP.pkt](./EMAIL%20&%20FTP.pkt), [ftp.pkt](./ftp.pkt)
