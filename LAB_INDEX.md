@@ -77,5 +77,3 @@ These quick verification steps show how to validate the common labs after openin
 
 - Misc labs (`CA2.pkt`, `CA3DCN.pkt`, `Assing1.pkt`, etc.)
 	- Check: follow the lab instructions inside the file; common checks include ping tests, `show` commands on routers/switches, and service verification (HTTP/DHCP/DNS).
-
-If you want, I can expand any of the verifications into step-by-step commands per lab or add screenshots/snippets for each.
