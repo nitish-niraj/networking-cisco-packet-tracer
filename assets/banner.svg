@@ -11,6 +11,9 @@
   </defs>
   <style>
     @media (prefers-reduced-motion: reduce) {
+      animate {
+        display: none;
+      }
       text {
         fill: #38bdf8 !important;
       }
